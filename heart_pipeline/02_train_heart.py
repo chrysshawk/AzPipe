@@ -77,6 +77,6 @@ Model.register(workspace = run.experiment.workspace,
                tags = {'Context' : 'Pipeline',
                        'Purpose' : 'DP100'},
                properties = {'AUC' : np.float(auc),
-                             'Accuracy' : np.float(acc)}
+                             'Accuracy' : np.float(acc)})
                
 run.complete()
